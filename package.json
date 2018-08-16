@@ -1,0 +1,37 @@
+{
+  "name": "backsplash",
+  "version": "1.0.0",
+  "description": "Give your web page a beautiful background image from unsplash.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --require dotenv/config .",
+    "dev": "nodemon --require dotenv/config .",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/backsplash.git"
+  },
+  "keywords": [
+    "style",
+    "background",
+    "photo",
+    "unsplash"
+  ],
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/backsplash/issues"
+  },
+  "homepage": "https://github.com/Gerhut/backsplash#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "koa": "^2.5.2",
+    "node-fetch": "^2.2.0",
+    "unsplash-js": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "standard": "^11.0.1"
+  }
+}

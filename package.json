@@ -31,7 +31,7 @@
     "unsplash-js": "^4.8.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3",
+    "nodemon": "^2.0.20",
     "standard": "^11.0.1"
   }
 }
